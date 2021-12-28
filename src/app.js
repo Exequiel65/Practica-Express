@@ -9,7 +9,9 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs') // aclara el motor de plantilla a utilizar
 app.set('views', path.join(__dirname, 'views'))
 
-
+/* OBTENER DATOS DEL BODY/FORMULARIO */
+app.use(express.urlencoded({ extended: false}))
+app.use(express.json())
 
 /* Routers */
 let routeHome = require('./routes/home')

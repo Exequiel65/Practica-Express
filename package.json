@@ -1,7 +1,7 @@
 {
-  "name": "Express",
+  "name": "express",
   "version": "1.0.0",
-  "description": "",
+  "description": "Practica express completo sin base de datos",
   "main": "src/app.js",
   "dependencies": {
     "ejs": "^3.1.6",
@@ -11,7 +11,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC"
 }

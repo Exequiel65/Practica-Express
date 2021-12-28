@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "name": "First product"
+    },
+    {
+        "name": "asda",
+        "descripcion": "adasd",
+        "price": "12321",
+        "stock": "123",
+        "categoria": "Categoria2",
+        "imagen": "default.png"
+    },
+    {
+        "name": "asdas",
+        "descripcion": "13123ad",
+        "price": "12",
+        "stock": "12",
+        "categoria": "Categoria3",
+        "imagen": "default.png"
+    }
+]

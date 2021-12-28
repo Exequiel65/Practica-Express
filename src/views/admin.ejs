@@ -6,14 +6,14 @@
   <%- include('./partials/navbar') %>
 
   <main style="display: flex; justify-content: center; ">
-    <form class="row g-3" style="width: 80%;">
+    <form class="row g-3" style="width: 80%;" action="/admin" method="post">
       <div class="col-md-6">
         <label for="inputEmail4" class="form-label">Nombre</label>
-        <input type="email" class="form-control" id="inputEmail4" name="name">
+        <input type="text" class="form-control" id="inputEmail4" name="name">
       </div>
       <div class="col-md-6">
         <label for="inputPassword4" class="form-label">Descripcion</label>
-        <input type="password" class="form-control" id="inputPassword4" name="descripcion">
+        <input type="text" class="form-control" id="inputPassword4" name="descripcion">
       </div>
       <div class="col-md-6">
         <label for="inputAddress" class="form-label">precio</label>
@@ -25,7 +25,7 @@
       </div>
       <div class="col-md-4">
         <label for="inputState" class="form-label">Categoria</label>
-        <select id="inputState" class="form-select">
+        <select id="inputState" class="form-select" name="categoria">
           <option selected=""></option>
           <option>Categoria1</option>
           <option>Categoria2</option>
