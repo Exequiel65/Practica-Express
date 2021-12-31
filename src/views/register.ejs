@@ -4,34 +4,24 @@
 
 <body>
   <%- include('./partials/navbar') %>
-
+  <h1>Registro</h1>
   <main style="display: flex; justify-content: center; ">
-    <form class="row g-3" style="width: 80%;" action="/admin" method="post" enctype="multipart/form-data">
+    <form class="row g-3" style="width: 80%;" action="/register" method="post" enctype="multipart/form-data">
       <div class="col-md-6">
         <label for="inputEmail4" class="form-label">Nombre</label>
         <input type="text" class="form-control" id="inputEmail4" name="name">
       </div>
       <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Descripcion</label>
-        <input type="text" class="form-control" id="inputPassword4" name="descripcion">
+        <label for="inputPassword4" class="form-label">emai</label>
+        <input type="email" class="form-control" id="inputPassword4" name="email">
       </div>
       <div class="col-md-6">
-        <label for="inputAddress" class="form-label">precio</label>
-        <input type="number" class="form-control" id="inputAddress" name="price">
+        <label for="inputAddress" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="inputAddress" name="password">
       </div>
       <div class="col-md-6">
-        <label for="inputCity" class="form-label">stock</label>
-        <input type="number" class="form-control" id="inputCity" name="stock">
-      </div>
-      <div class="col-md-4">
-        <label for="inputState" class="form-label">Categoria</label>
-        <select id="inputState" class="form-select" name="categoria">
-          <option selected=""></option>
-          <option>Categoria1</option>
-          <option>Categoria2</option>
-          <option>Categoria3</option>
-          <option>Categoria4</option>
-        </select>
+        <label for="inputCity" class="form-label">Repetir Contraseña</label>
+        <input type="password" class="form-control" id="inputCity" name="rePassword">
       </div>
       <div class="col-md-2">
         <label for="inputZip" class="form-label">image</label>

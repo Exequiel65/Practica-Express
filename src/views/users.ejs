@@ -7,15 +7,14 @@
     <main>
         <div class="container p-5">
             <div class="row row-cols-3 gx-5 grid">
-                <% products.forEach(product => { %>
+                <% users.forEach(user => { %>
                 
                     <div class="g-col-4 grid p-2">
                         <div class="p-3 card g-col-4" style="width: 18rem;">
-                            <img src="/img/<%= product.imagen%>" class="card-img-top" >
+                            <img src="/img/<%= user.imagen%>" class="card-img-top" >
                             <div class="card-body ">
-                                <h5 class="card-title"><%= product.name%></h5>
-                                <p class="card-text"><%= product.descripcion%></p>
-                                <p class="card-number">$<%= product.price%></p>
+                                <h5 class="card-title"><%= user.name%></h5>
+                                <p class="card-number"><%= user.email%></p>
                                 <a href="#" class="btn btn-primary">ver</a>
                             </div>
                         </div>

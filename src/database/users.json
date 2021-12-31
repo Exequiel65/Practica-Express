@@ -1,0 +1,23 @@
+[
+    {
+        "id": 2,
+        "name": "Marcos",
+        "email": "mail@mail.com",
+        "password": "asdf",
+        "imagen": "default.png"
+    },
+    {
+        "id": 3,
+        "name": "Marcos",
+        "email": "mail@mail.com",
+        "password": "asdf",
+        "imagen": "default.png"
+    },
+    {
+        "id": 4,
+        "name": "Sofia",
+        "email": "sofi@mail.com",
+        "password": "asdfg",
+        "imagen": "default.png"
+    }
+]

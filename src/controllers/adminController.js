@@ -5,20 +5,29 @@ const controller = {
         res.render('admin')
     },
     newProduct : (req, res) =>{
+        let lastId = 1;
+        
+        products.forEach(product => {
+            if(product.id > lastId){
+                lastId = product.id
+            }
+        });
+
         let {name, descripcion, price, stock, categoria, imagen} = req.body
         let newProduct = {
+            id: lastId + 1,
             name,
             descripcion,
             price,
             stock,
             categoria,
-            imagen : "default.png"
+            imagen : req.file ? req.file.filename : "default.png"
         }
         
         products.push(newProduct)
 
         writeProductsJSON(products)
-        res.redirect('/')
+        res.redirect('/admin')
     }
 }
 
