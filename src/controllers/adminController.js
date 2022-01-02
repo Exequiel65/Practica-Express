@@ -28,6 +28,15 @@ const controller = {
 
         writeProductsJSON(products)
         res.redirect('/admin')
+    },
+    edit : (req, res) =>{
+        let product = products.find(product => +req.params.id === product.id )
+        res.render('editerProduct',{
+            product
+        })
+    },
+    update : (req, res) =>{
+        res.send('hola')
     }
 }
 
