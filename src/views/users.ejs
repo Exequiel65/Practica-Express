@@ -11,11 +11,16 @@
                 
                     <div class="g-col-4 grid p-2">
                         <div class="p-3 card g-col-4" style="width: 18rem;">
-                            <img src="/img/<%= user.imagen%>" class="card-img-top" >
+                            <% if (user.imagen) { %>
+                                <img src="/img/avatar/<%= user.imagen%>" class="card-img-top" >
+                            <% } else { %>
+                                <img src="/imagen/avatar-default.png" class="card-img-top" >
+                            <% } %> 
+                            
                             <div class="card-body ">
                                 <h5 class="card-title"><%= user.name%></h5>
                                 <p class="card-number"><%= user.email%></p>
-                                <a href="#" class="btn btn-primary">ver</a>
+                                <a href="/users/edit/<%= user.id %> " class="btn btn-primary">ver</a>
                             </div>
                         </div>
                     </div>

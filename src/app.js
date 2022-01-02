@@ -2,6 +2,8 @@ const express = require('express');
 const path = require('path');
 const app = express()
 const PORT = 3000
+
+const methodOverride = require('method-override')
 /* Recursos estaticos */
 app.use(express.static('public'));
 
@@ -12,6 +14,9 @@ app.set('views', path.join(__dirname, 'views'))
 /* OBTENER DATOS DEL BODY/FORMULARIO */
 app.use(express.urlencoded({ extended: false}))
 app.use(express.json())
+
+/* METHOD OVERRIDE */
+app.use(methodOverride('_method'))
 
 /* Routers */
 let routeHome = require('./routes/home')

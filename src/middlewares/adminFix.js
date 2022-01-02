@@ -1,4 +1,3 @@
-
 const USER = "USER_ADMIN"
 
 function userAdminCheck (req, res, next){

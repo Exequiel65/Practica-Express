@@ -1,65 +1,11 @@
 [
     {
-        "id": 1,
-        "name": "Porcelanato Liquido Cristal",
-        "descripcion": "Pintutex 6500 Resina 1Kg y Catalizador 0.6Kg",
-        "price": "5880",
-        "stock": "50",
-        "categoria": "Categoria1",
-        "imagen": "resina-epoxi.png"
-    },
-    {
         "id": 2,
-        "name": "Mesa Ratona Cubo Mármol",
-        "descripcion": "Carrara A Medida - Carrara Design",
-        "price": "165900",
-        "stock": "50",
-        "categoria": "Categoria1",
-        "imagen": "1640738440861_img_.png"
-    },
-    {
-        "id": 3,
-        "name": "Mesa Ratona Mármol Carrara Y Cromada ",
-        "descripcion": "Carrara Design",
-        "price": "39900",
-        "stock": "50",
-        "categoria": "Categoria1",
-        "imagen": "1640738473623_img_.png"
-    },
-    {
-        "id": 4,
-        "name": "Mesa Ratona Cuadrada Mármol ",
-        "descripcion": "Realizamos todas las mesas a medida y gusto del cliente!",
-        "price": "49900",
-        "stock": "50",
-        "categoria": "Categoria1",
-        "imagen": "1640738516383_img_.png"
-    },
-    {
-        "id": 8,
-        "name": "Imagen 2 de 4 de ZTE Blade A5 Plus 32 GB",
-        "descripcion": "Doble cámara y más detalles",
-        "price": "13999",
-        "stock": "50",
-        "categoria": "Categoria2",
-        "imagen": "1640738702211_img_.png"
-    },
-    {
-        "id": 9,
-        "name": "Kodak Smartway M2 Dual SIM 32 GB azul 3 GB RAM",
-        "descripcion": "Dispositivo liberado para que elijas la compañía telefónica que prefieras.",
-        "price": "33480",
-        "stock": "50",
-        "categoria": "Categoria2",
-        "imagen": "default.png"
-    },
-    {
-        "id": 10,
-        "name": "Mesa Ratona De Madera Y Resina Epoxi",
-        "descripcion": "Mesa ratona de madera y resina epoxi!!",
-        "price": "45000",
-        "stock": "50",
+        "name": "1231312",
+        "descripcion": "11231",
+        "price": "123123",
+        "stock": "12312313",
         "categoria": "Categoria3",
-        "imagen": "1640738754663_img_.png"
+        "imagen": "1641158502573_img_.png"
     }
 ]

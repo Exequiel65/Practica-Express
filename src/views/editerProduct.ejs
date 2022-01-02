@@ -6,7 +6,7 @@
   <%- include('./partials/navbar') %>
 
   <main style="display: flex; justify-content: center; ">
-    <form class="row g-3" style="width: 80%;" action="/admin/editer/<%= product.id %>?_method=PUT " method="post" enctype="multipart/form-data">
+    <form class="row g-3" style="width: 80%;" action="/admin/editer/<%= product.id %>?_method=PUT" method="post" enctype="multipart/form-data">
       <div class="col-md-6">
         <label for="inputEmail4" class="form-label">Nombre</label>
         <input type="text" class="form-control" id="inputEmail4" name="name" value="<%= product.name%>">
@@ -39,6 +39,12 @@
       </div>
       <div class="col-12">
         <button type="submit" class="btn btn-primary">Editar</button>
+      </div>
+    </form>
+
+    <form action="/admin/editer/<%= product.id %>?_method=DELETE" method="post">
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Eliminar</button>
       </div>
     </form>
   </main>
